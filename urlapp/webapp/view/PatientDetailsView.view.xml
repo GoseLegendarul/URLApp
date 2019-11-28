@@ -1,0 +1,34 @@
+<mvc:View controllerName="com.cerner.dragos.urlapp.controller.PatientDetails" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	displayBlock="true" 
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<f:SimpleForm
+						id="form"
+						minWidth="1024"
+						editable="false"
+						layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+						columnsL="1" columnsM="1">
+						<f:content>
+							<Label text="Id" />
+							<Text text="{patient>/id}" />
+							<Label text="Age " />
+							<Text text="{patient>/age}" />
+							<Label text="Encounter id " />
+							<Text text="{encounter>/id}" />
+							<Label text="Encounter date" />
+							<Text text="{encounter>/date}" />
+						</f:content>
+					</f:SimpleForm>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

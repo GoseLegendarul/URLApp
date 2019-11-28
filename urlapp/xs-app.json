@@ -1,0 +1,14 @@
+{
+    "welcomeFile": "urlapp/",
+    "authenticationMethod": "route",
+    "logout": {
+        "logoutEndpoint": "/do/logout"
+    },
+    "routes": [
+        {
+            "source": "^/urlapp/(.*)$",
+            "target": "$1",
+            "localDir": "webapp"
+        }
+    ]
+}

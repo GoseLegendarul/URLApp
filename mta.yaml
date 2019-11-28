@@ -1,0 +1,24 @@
+ID: TestDeploy
+_schema-version: "2.1"
+version: 0.0.1
+
+modules:
+  - name: urlapp
+    type: html5
+    path: urlapp
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+    build-parameters:
+      builder: npm
+    requires:
+      - name: uaa_urlapp
+
+resources:
+  - name: uaa_urlapp
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+    type: org.cloudfoundry.managed-service
+
