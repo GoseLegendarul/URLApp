@@ -1,22 +1,22 @@
 [main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 7 threads
 [main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=CF, --mtar=mymtar.mtar, build]
-[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is C:\Users\DD073403\Desktop\SAP\mymtar.mtar
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is C:\Users\DD073403\Desktop\La munca\SAP repo\SAP_url\mymtar.mtar
 [main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.RequiredSymbol$$impl2 for bean interface com.sap.di.ext.mta.dto.RequiredSymbol
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.Resource$$impl3 for bean interface com.sap.di.ext.mta.dto.Resource
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA TestDeploy
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA TestDeployk
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.proc.ModuleBuildDependency$$impl4 for bean interface com.sap.di.ext.mta.proc.ModuleBuildDependency
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk
 [main] INFO org.eclipse.che.commons.lang.concurrent.ThreadLocalPropagateContext - using a no-op implementation of interface org.eclipse.che.commons.lang.concurrent.ThreadLocalWrapper
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy: created 2 verification tasks
-[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy: started symbol resource[uaa_urlapp]
-[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy: started symbol module[urlapp]
-[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy: finished symbol resource[uaa_urlapp]
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk: created 2 verification tasks
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk: started symbol module[urlapp]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk: started symbol resource[uaa_urlapp]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk: finished symbol resource[uaa_urlapp]
 [pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'urlapp': command timeout is 300 seconds
-[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'urlapp': command output file is C:\Users\DD073403\Desktop\SAP\.mta\modulebuild15184949736659446648.txt
+[pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'urlapp': command output file is C:\Users\DD073403\Desktop\La munca\SAP repo\SAP_url\.mta\modulebuild1151650236470953981.txt
 [pool-1-thread-2] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'urlapp': invoking command [npm.cmd, install, --production]
-[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeploy: finished symbol module[urlapp]
+[pool-1-thread-2] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA TestDeployk: finished symbol module[urlapp]
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentDescriptor$$impl5 for bean interface com.sap.di.ext.mta.dto.DeploymentDescriptor
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentModule$$impl6 for bean interface com.sap.di.ext.mta.dto.DeploymentModule
